@@ -1,8 +1,13 @@
----
+<p align="center">
 
-# 🧩 Full Stack Web Application – .NET 8 & Angular 17/18
+<img src="https://github.com/user-attachments/assets/c80d1d21-6cad-4cfd-9db5-29accdc2073b" width="250">
+</p>
 
-This repository contains the source code for a **full-featured web application** built using **ASP.NET Core (.NET 8.0)** and **Angular 17/18**. The system includes user authentication, photo uploads, real-time messaging, responsive UI, and is fully deployable to both **IIS** and **Linux servers** (e.g. Heroku).
+
+
+# 🧩 Full Stack Web Application – .NET 9 & Angular 18
+
+This repository contains the source code for a **full-featured web application** built using **ASP.NET Core (.NET 9.0)** and **Angular 18**. The system includes user authentication, photo uploads, real-time messaging, responsive UI, and is fully deployable to both **IIS** and **Linux servers** (e.g. Heroku).
 
 ---
 
@@ -30,8 +35,8 @@ The application showcases modern full-stack development best practices using two
 
 ## 🔧 Technologies & Tools
 
-- **Backend:** .NET 8.0, ASP.NET Core Web API, Entity Framework Core, SignalR  
-- **Frontend:** Angular 17/18, TypeScript, RxJS, Bootstrap  
+- **Backend:** .NET 9.0, ASP.NET Core Web API, Entity Framework Core, SignalR  
+- **Frontend:** Angular 18, TypeScript, RxJS, Bootstrap  
 - **Other Tools:** AutoMapper, JWT Authentication, Heroku, Visual Studio Code  
 
 [![My Skills](https://skillicons.dev/icons?i=dotnet,angular,ts,js,html,css,azure,bootstrap)](https://skillicons.dev)
@@ -42,7 +47,7 @@ The application showcases modern full-stack development best practices using two
 
 ### Prerequisites
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/download)
+- [.NET 9 SDK](https://dotnet.microsoft.com/download)
 - [Node.js & npm](https://nodejs.org/)
 - [Angular CLI](https://angular.io/cli)
 - [Visual Studio Code](https://code.visualstudio.com/)
