@@ -27,4 +27,17 @@ export class AccountService {
     localStorage.removeItem('user');
     this.currentUser.set(null);
   }
+
+  register(model: any)
+  {
+    return this.http.post<User>(this.baseUel+'account/register',model).pipe(
+      map(user=> {
+        if (user){
+          localStorage.setItem('user',JSON.stringify(user));
+          this.currentUser.set(user);
+        }
+        return user;
+      })
+    )
+  }
 }
