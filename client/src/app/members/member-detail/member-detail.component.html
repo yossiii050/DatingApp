@@ -1,1 +1,10 @@
-<p>member-detail works!</p>
+@if(member)
+{
+    <div class="row">
+        <div class="col-4">
+            <div class="card">
+                <img src="{{member.photoUrl}}" alt="">
+            </div>
+        </div>
+    </div>
+}
