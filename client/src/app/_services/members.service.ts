@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { inject, Injectable } from '@angular/core';
+import { inject, Injectable, signal } from '@angular/core';
 import { environment } from '../../environments/environment';
 import { Member } from '../_models/member';
 
@@ -9,9 +9,12 @@ import { Member } from '../_models/member';
 export class MembersService {
   private http=inject(HttpClient);
   baseUrl=environment.apiUrl;
+  members=signal<Member[]>([]);
 
   getMembers(){
-    return this.http.get<Member[]>(this.baseUrl+'user');
+    return this.http.get<Member[]>(this.baseUrl+'user').subscribe({
+      next: members=>this.members.set(members)
+    });
   }
 
   getMember(username: string){
