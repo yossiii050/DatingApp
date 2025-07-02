@@ -75,19 +75,6 @@ ng serve
 
 ---
 
-## 📸 Screenshots
-
-> (אפשר להוסיף תמונות בהמשך — גלריית תמונות, צ'אט חי, הרשמה וכו')
-
----
-
-## 🌐 Deployment
-
-- 🐧 Deployed on **Heroku (Linux)** using Dockerfile and Git-based CI.
-- 🪟 Supports publishing to **IIS** for Windows environments.
-
----
-
 ## 💡 Developer Notes
 
 - Architecture follows **Clean Separation of Concerns** (API <-> Client)
